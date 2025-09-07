@@ -129,7 +129,7 @@ Epoch 5/5
 Train Loss: 0.3746 | Train Acc: 86.65%
 Val   Loss: 0.4097 | Val   Acc: 85.63%
 
-Final Head - Random Was
+Final Head - Random Wts
 Epoch 1/5
 Train Loss: 23.8095 | Train Acc: 14.30%
 Val   Loss: 14.8177 | Val   Acc: 21.15%
@@ -149,3 +149,26 @@ Val   Loss: 3.1866 | Val   Acc: 45.16%
 Epoch 5/5
 Train Loss: 4.2665 | Train Acc: 39.00%
 Val   Loss: 2.5595 | Val   Acc: 45.44%
+
+All layers - ImageNet Wts
+Epoch 1/5
+Train Loss: 0.6346 | Train Acc: 78.90%
+Val   Loss: 0.4926 | Val   Acc: 83.55%
+
+Epoch 2/5
+Train Loss: 0.5215 | Train Acc: 82.62%
+Val   Loss: 0.4823 | Val   Acc: 83.91%
+
+Epoch 3/5
+Train Loss: 0.4654 | Train Acc: 84.28%
+Val   Loss: 0.4853 | Val   Acc: 83.86%
+
+Epoch 4/5
+Train Loss: 0.4515 | Train Acc: 84.97%
+Val   Loss: 0.4166 | Val   Acc: 86.55%
+
+Epoch 5/5
+Train Loss: 0.4355 | Train Acc: 85.15%
+Val   Loss: 0.5609 | Val   Acc: 80.65%
+
+All layers - Random Wts
