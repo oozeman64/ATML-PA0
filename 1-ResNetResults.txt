@@ -1,0 +1,151 @@
+ResNet Baseline
+Epoch 1/5 
+Train Loss: 0.6217 | Train Acc: 78.81% 
+Val   Loss: 0.5318 | Val   Acc: 81.91% 
+
+Epoch 2/5 
+Train Loss: 0.5143 | Train Acc: 82.58%
+Val   Loss: 0.4815 | Val   Acc: 83.66% 
+
+Epoch 3/5 
+Train Loss: 0.4902 | Train Acc: 83.28% 
+Val   Loss: 0.5057 | Val   Acc: 83.12% 
+
+Epoch 4/5 
+Train Loss: 0.4656 | Train Acc: 83.84%
+Val   Loss: 0.4978 | Val   Acc: 82.97% 
+
+Epoch 5/5 
+Train Loss: 0.4552 | Train Acc: 84.26% 
+Val   Loss: 0.4601 | Val   Acc: 84.40%
+
+
+ResNet DisableSkip
+
+DISABLE L1[0] and L1[1]
+Epoch 1/5 
+Train Loss: 1.6616 | Train Acc: 42.22%
+Val   Loss: 1.4462 | Val   Acc: 49.24% 
+
+Epoch 2/5 
+Train Loss: 1.5652 | Train Acc: 46.53% 
+Val   Loss: 1.5349 | Val   Acc: 46.37% 
+
+Epoch 3/5 
+Train Loss: 1.4908 | Train Acc: 48.71% 
+Val   Loss: 1.6353 | Val   Acc: 45.05% 
+
+Epoch 4/5 
+Train Loss: 1.4387 | Train Acc: 50.35% 
+Val   Loss: 1.4440 | Val   Acc: 49.87% 
+
+Epoch 5/5 
+Train Loss: 1.4350 | Train Acc: 50.65% 
+Val   Loss: 1.4256 | Val   Acc: 51.44%
+
+DISABLE L2[0] and L2[1]
+Epoch 1/5 
+Train Loss: 2.1471 | Train Acc: 25.78%
+Val   Loss: 2.1078 | Val   Acc: 28.88% 
+
+Epoch 2/5 
+Train Loss: 2.0458 | Train Acc: 28.63% 
+Val   Loss: 2.1073 | Val   Acc: 26.75% 
+
+Epoch 3/5 
+Train Loss: 2.0157 | Train Acc: 29.83% 
+Val   Loss: 2.1212 | Val   Acc: 27.23% 
+
+Epoch 4/5 
+Train Loss: 2.0104 | Train Acc: 30.29% 
+Val   Loss: 1.9141 | Val   Acc: 32.50% 
+
+Epoch 5/5 
+Train Loss: 1.9986 | Train Acc: 30.91% 
+Val   Loss: 2.0430 | Val   Acc: 30.87%
+
+DISABLE L3[0] and L3[1]
+Epoch 1/5
+Train Loss: 2.3040 | Train Acc: 19.14% 
+Val   Loss: 2.2214 | Val   Acc: 21.28% 
+
+Epoch 2/5 
+Train Loss: 2.2753 | Train Acc: 21.46% 
+Val   Loss: 2.2352 | Val   Acc: 21.34% 
+
+Epoch 3/5 
+Train Loss: 2.2719 | Train Acc: 22.00% 
+Val   Loss: 2.1976 | Val   Acc: 22.82% 
+
+Epoch 4/5 
+Train Loss: 2.2276 | Train Acc: 22.49% 
+Val   Loss: 2.2765 | Val   Acc: 22.51% 
+
+Epoch 5/5 
+Train Loss: 2.2085 | Train Acc: 23.28% 
+Val   Loss: 2.2702 | Val   Acc: 23.08%
+
+DISABLE L4[0] and L4[1]
+Epoch 1/5 
+Train Loss: 0.9047 | Train Acc: 69.51% 
+Val   Loss: 0.7850 | Val   Acc: 73.25% 
+
+Epoch 2/5 
+Train Loss: 0.7488 | Train Acc: 74.09% 
+Val   Loss: 0.7472 | Val   Acc: 74.31% 
+
+Epoch 3/5 
+Train Loss: 0.7138 | Train Acc: 75.51% 
+Val   Loss: 0.7365 | Val   Acc: 74.61% 
+
+Epoch 4/5 
+Train Loss: 0.6896 | Train Acc: 76.34% 
+Val   Loss: 0.7054 | Val   Acc: 75.65% 
+
+Epoch 5/5 
+Train Loss: 0.6837 | Train Acc: 76.63% 
+Val   Loss: 0.7150 | Val   Acc: 75.85%
+
+
+ResNet Transfer Learning FashionMNIST 
+Final Head - ImageNet Wts
+Epoch 1/5
+Train Loss: 0.5609 | Train Acc: 80.16%
+Val   Loss: 0.5029 | Val   Acc: 81.85%
+
+Epoch 2/5
+Train Loss: 0.4347 | Train Acc: 84.35%
+Val   Loss: 0.4296 | Val   Acc: 84.82%
+
+Epoch 3/5
+Train Loss: 0.4112 | Train Acc: 85.31%
+Val   Loss: 0.4342 | Val   Acc: 84.12%
+
+Epoch 4/5
+Train Loss: 0.3960 | Train Acc: 85.66%
+Val   Loss: 0.4065 | Val   Acc: 85.30%
+
+Epoch 5/5
+Train Loss: 0.3746 | Train Acc: 86.65%
+Val   Loss: 0.4097 | Val   Acc: 85.63%
+
+Final Head - Random Was
+Epoch 1/5
+Train Loss: 23.8095 | Train Acc: 14.30%
+Val   Loss: 14.8177 | Val   Acc: 21.15%
+
+Epoch 2/5
+Train Loss: 12.4919 | Train Acc: 24.16%
+Val   Loss: 10.5040 | Val   Acc: 25.27%
+
+Epoch 3/5
+Train Loss: 6.7194 | Train Acc: 32.31%
+Val   Loss: 6.1345 | Val   Acc: 26.64%
+
+Epoch 4/5
+Train Loss: 4.3291 | Train Acc: 38.91%
+Val   Loss: 3.1866 | Val   Acc: 45.16%
+
+Epoch 5/5
+Train Loss: 4.2665 | Train Acc: 39.00%
+Val   Loss: 2.5595 | Val   Acc: 45.44%
