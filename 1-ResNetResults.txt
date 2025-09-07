@@ -172,3 +172,22 @@ Train Loss: 0.4355 | Train Acc: 85.15%
 Val   Loss: 0.5609 | Val   Acc: 80.65%
 
 All layers - Random Wts
+Epoch 1/5
+Train Loss: 14.1440 | Train Acc: 21.58%
+Val   Loss: 13.6297 | Val   Acc: 15.02%
+
+Epoch 2/5
+Train Loss: 6.4648 | Train Acc: 33.62%
+Val   Loss: 7.8034 | Val   Acc: 33.33%
+
+Epoch 3/5
+Train Loss: 5.0836 | Train Acc: 37.68%
+Val   Loss: 6.5279 | Val   Acc: 29.05%
+
+Epoch 4/5
+Train Loss: 4.4749 | Train Acc: 40.64%
+Val   Loss: 3.5640 | Val   Acc: 40.35%
+
+Epoch 5/5
+Train Loss: 4.5319 | Train Acc: 40.73%
+Val   Loss: 5.9703 | Val   Acc: 36.45%
